@@ -105,7 +105,7 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>dinput.lib;ddraw.lib;d3dx8.lib;d3d8.lib;winmm.lib;vfw32.lib;dsound.lib;wsock32.lib;imm32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>dinput.lib;ddraw.lib;d3dx8.lib;d3d9.lib;winmm.lib;vfw32.lib;dsound.lib;wsock32.lib;imm32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>../../../Run/WorldBuilderD.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>..\..\Libraries\Source\WWVegas\Miles6\Libraries\Win32\DebugRelease\;..\..\Libraries\DX90SDK\Lib\x86;..\..\Libraries\Lib;..\..\GameEngine\Lib;..\..\GameEngineDevice\Lib;..\..\GameEngine;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -159,7 +159,7 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>dxguid.lib;dinput8.lib;ddraw.lib;d3dx8.lib;d3d8.lib;winmm.lib;vfw32.lib;dsound.lib;wsock32.lib;imm32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>dxguid.lib;dinput8.lib;ddraw.lib;d3dx8.lib;d3d9.lib;winmm.lib;vfw32.lib;dsound.lib;wsock32.lib;imm32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>../../../Run/WorldBuilderI.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>..\..\Libraries\Source\WWVegas\Miles6\Libraries\Win32\DebugRelease\;..\..\Libraries\DX90SDK\Lib\x86;..\..\Libraries\Lib;..\..\GameEngine\Lib;..\..\GameEngineDevice\Lib;..\..\GameEngine;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -213,7 +213,7 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>dinput.lib;ddraw.lib;d3dx8.lib;d3d8.lib;winmm.lib;vfw32.lib;dsound.lib;wsock32.lib;imm32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>dinput.lib;ddraw.lib;d3dx8.lib;d3d9.lib;winmm.lib;vfw32.lib;dsound.lib;wsock32.lib;imm32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>../../../Run/WorldBuilder.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>..\..\Libraries\Source\WWVegas\Miles6\Libraries\Win32\DebugRelease\;..\..\Libraries\DX90SDK\Lib\x86;..\..\Libraries\Lib;..\..\GameEngine\Lib;..\..\GameEngineDevice\Lib;..\..\GameEngine;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -603,22 +603,15 @@
     </ProjectReference>
     <ProjectReference Include="..\..\Libraries\Source\WWVegas\WWDownload\WWDownload.vcxproj">
       <Project>{46cf04d9-1c8e-4f31-af11-ae8dbe8a9004}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\..\Libraries\Source\WWVegas\WWLib\wwlib.vcxproj">
       <Project>{441114de-f54c-4876-978a-c288103ceea0}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\..\Libraries\Source\WWVegas\WWMath\wwmath.vcxproj">
       <Project>{034e07ef-9c39-4a94-9bc9-e19b18996951}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\..\Libraries\Source\WWVegas\WWSaveLoad\wwsaveload.vcxproj">
       <Project>{86908043-4887-4a76-8da4-3350e9932e32}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Libraries\Source\WWVegas\Wwutil\wwutil.vcxproj">
-      <Project>{bb333cd2-42e0-4787-8c7f-1add61daf031}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
