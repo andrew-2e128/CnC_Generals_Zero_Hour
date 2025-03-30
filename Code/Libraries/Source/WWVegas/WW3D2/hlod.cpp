@@ -134,7 +134,6 @@
 #include "predlod.h"
 #include "rinfo.h"
 #include <string.h>
-#include <win.h>
 #include "sphere.h"
 #include "boxrobj.h"
 

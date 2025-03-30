@@ -46,7 +46,6 @@
 #include "vector.h"
 #include "vector2i.h"
 #include "wwstring.h"
-#include "win.h"
 
 /*
 ** FontCharsClass

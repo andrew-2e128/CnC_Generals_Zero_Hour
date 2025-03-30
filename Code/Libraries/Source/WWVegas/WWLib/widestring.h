@@ -45,7 +45,6 @@
 #include <stdarg.h>
 #include "always.h"
 #include "wwdebug.h"
-#include "win.h"
 #include "wwstring.h"
 #include <wchar.h>
 #ifdef _UNIX

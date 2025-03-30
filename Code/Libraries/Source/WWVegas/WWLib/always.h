@@ -222,23 +222,34 @@ template <class T> T max(T a,T b)
 
 bool IsWorldBuilder();
 
-/*
-**	This includes the minimum set of compiler defines and pragmas in order to bring the
-**	various compilers to a common behavior such that the C&C engine will compile without
-**	error or warning.
-*/
-#if defined(__BORLANDC__)
-#include	"borlandc.h"
-#endif
-
-#if defined(_MSC_VER)
-#include	"visualc.h"
-#endif
-
-#if defined(__WATCOMC__)
-#include	"watcom.h"
-#endif
-
+[[maybe_unused]]
+constexpr double M_E        = 2.71828182845904523536;
+[[maybe_unused]]
+constexpr double M_LOG2E    = 1.44269504088896340736;
+[[maybe_unused]]
+constexpr double M_LOG10E   = 0.434294481903251827651;
+[[maybe_unused]]
+constexpr double M_LN2      = 0.693147180559945309417;
+[[maybe_unused]]
+constexpr double M_LN10     = 2.30258509299404568402;
+[[maybe_unused]]
+constexpr double M_PI       = 3.14159265358979323846;
+[[maybe_unused]]
+constexpr double M_PI_2     = 1.57079632679489661923;
+[[maybe_unused]]
+constexpr double M_PI_4     = 0.785398163397448309616;
+[[maybe_unused]]
+constexpr double M_1_PI     = 0.318309886183790671538;
+[[maybe_unused]]
+constexpr double M_2_PI     = 0.636619772367581343076;
+[[maybe_unused]]
+constexpr double M_1_SQRTPI = 0.564189583547756286948;
+[[maybe_unused]]
+constexpr double M_2_SQRTPI = 1.12837916709551257390;
+[[maybe_unused]]
+constexpr double M_SQRT2    = 1.41421356237309504880;
+[[maybe_unused]]
+constexpr double M_SQRT_2   = 0.707106781186547524401;
 
 #ifndef	NULL
 	#define	NULL		0

@@ -80,7 +80,6 @@
 #include	"ini.h"
 #include	"readline.h"
 #include	"trim.h"
-#include	"win.h"
 #include	"xpipe.h"
 #include	"xstraw.h"
 #include	<stdio.h>

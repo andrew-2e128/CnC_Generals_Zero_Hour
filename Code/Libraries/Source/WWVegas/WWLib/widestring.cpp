@@ -37,7 +37,6 @@
 #pragma warning(disable : 4514)
 
 #include "widestring.h"
-#include "win.h"
 #include <stdio.h>
 
 

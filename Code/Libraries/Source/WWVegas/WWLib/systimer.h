@@ -38,8 +38,7 @@
 #ifndef _SYSTIMER_H
 
 #include "always.h"
-#include <windows.h>
-#include "mmsys.h"
+#include <timeapi.h>
 
 #define TIMEGETTIME SystemTime.Get
 

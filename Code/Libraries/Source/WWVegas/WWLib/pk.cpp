@@ -44,7 +44,6 @@
 
 #include	"always.h"
 #include	"pk.h"
-#include	"rndstraw.h"
 #include	<string.h>
 
 

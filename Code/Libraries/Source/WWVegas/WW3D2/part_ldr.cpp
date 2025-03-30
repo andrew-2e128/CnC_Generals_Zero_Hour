@@ -37,7 +37,6 @@
 #include "part_emt.h"
 #include "w3derr.h"
 #include "chunkio.h"
-#include "win.h"		// for lstrcpy, can this be improved?
 #include "assetmgr.h"
 #include "texture.h"
 

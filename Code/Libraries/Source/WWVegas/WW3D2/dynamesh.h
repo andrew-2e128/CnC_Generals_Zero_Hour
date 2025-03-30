@@ -44,7 +44,7 @@
 #include "meshmatdesc.h"
 #include "matinfo.h"
 #include "rendobj.h"
-#include "polyinfo.h"
+//#include "polyinfo.h" // Not used
 #include "GameRenderer.h"
 
 class	ShaderClass;
@@ -182,6 +182,7 @@ public:
 	// Set the shader for the current triangle
 	int	Set_Shader( const ShaderClass & shader, int pass = 0) { Model->Set_Single_Shader(shader, pass); return 0; }
 	
+#if 0 // not used
 	// set the shader, texture, and vertex material as found in the polygon info object
 	void	Set_Polygon_Info(const PolygonInfoClass &polyInfo, bool dont_search_texture = false, bool dont_search_vertex_material = false, int pass = 0)
 	{
@@ -195,6 +196,7 @@ public:
 		if (polyInfo.Peek_Texture())
 			Set_Texture(polyInfo.Peek_Texture(), dont_search_texture, pass);
 	}
+#endif
 
 	// Set vertex Color
 	inline int	Set_Vertex_Color(const Vector4 & color, int color_array_index = 0);

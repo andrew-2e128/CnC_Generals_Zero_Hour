@@ -5,7 +5,6 @@ set(SOURCES
     animobj.cpp
     assetmgr.cpp
     bitmaphandler.cpp
-    bmp2d.cpp
     boxrobj.cpp
     bwrender.cpp
     camera.cpp
@@ -14,8 +13,8 @@ set(SOURCES
     composite.cpp
     dazzle.cpp
     ddsfile.cpp
-    decalmsh.cpp
-    decalsys.cpp
+    decalmsh.cpp # TODO this can be removed with some source code tweaking
+    decalsys.cpp # TODO this can be removed with some source code tweaking
     distlod.cpp
     dynamesh.cpp
     font3d.cpp
@@ -40,8 +39,6 @@ set(SOURCES
     matpass.cpp
     matrixmapper.cpp
     mesh.cpp
-    meshbuild.cpp
-    meshdam.cpp
     meshgeometry.cpp
     meshmatdesc.cpp
     meshmdl.cpp
@@ -55,17 +52,13 @@ set(SOURCES
     part_ldr.cpp
     pivot.cpp
     pointgr.cpp
-    polyinfo.cpp
     predlod.cpp
-    prim_anim.cpp
     projector.cpp
     proto.cpp
     render2d.cpp
     render2dsentence.cpp
-    renderobjectrecycler.cpp
     rendobj.cpp
     rinfo.cpp
-    ringobj.cpp
     scene.cpp
     segline.cpp
     seglinerenderer.cpp
@@ -73,22 +66,18 @@ set(SOURCES
     shattersystem.cpp
     snappts.cpp
     sortingrenderer.cpp
-    sphereobj.cpp
     statistics.cpp
     streak.cpp
     streakRender.cpp
     stripoptimizer.cpp
     surfaceclass.cpp
-    texfcach.cpp
     texproject.cpp
     texture.cpp
     textureloader.cpp
     texturethumbnail.cpp
-    txt.cpp
     vertmaterial.cpp
     visrasterizer.cpp
     w3dexclusionlist.cpp
-    w3d_dep.cpp
     w3d_util.cpp
     ww3d.cpp
     ww3dformat.cpp
